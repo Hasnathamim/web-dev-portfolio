@@ -125,3 +125,43 @@ color: #181818;
   color: #474747;
   font-weight: bold;
 }
+/* skills-style */
+
+.skills-section-title{
+  /* padding: 130px 150px; */
+  margin-top: 70px;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  color: #181818;
+  }
+  .skills-section-description{
+    margin: 30px 115px ;
+    font-size: 18px;
+    text-align: center;
+    color: #757575;
+  }
+  .skills-container{
+    display: flex;
+    gap: 24px;
+  }
+  .skill{
+    width: 265px;
+    height: 377px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06); 
+    padding: 30px;
+
+  }
+  .skill-title{
+
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .skill-description{
+   
+    font-size: 16px;
+    font-weight: 400;
+    color:#757575;
+  }
